@@ -57,6 +57,11 @@
 		C47370122E84D3060057BE6F /* BibliotecaSistemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliotecaSistemaTests.swift; sourceTree = "<group>"; };
 		C47370142E84D36E0057BE6F /* BibliotecaPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliotecaPresenterTests.swift; sourceTree = "<group>"; };
 		C47370162E84D3DC0057BE6F /* LibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryUITests.swift; sourceTree = "<group>"; };
+		C473701A2E84D64C0057BE6F /* LibraryUITests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LibraryUITests.png; sourceTree = "<group>"; };
+		C473701B2E84D68E0057BE6F /* BibliotecaPresenterTests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BibliotecaPresenterTests.png; sourceTree = "<group>"; };
+		C473701D2E84D70C0057BE6F /* BibliotecaSistemaTests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BibliotecaSistemaTests.png; sourceTree = "<group>"; };
+		C473701E2E84D7ED0057BE6F /* Cobertura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cobertura.png; sourceTree = "<group>"; };
+		C473701F2E84D80F0057BE6F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,8 @@
 		C4736FB12E84D13B0057BE6F = {
 			isa = PBXGroup;
 			children = (
+				C473701F2E84D80F0057BE6F /* README.md */,
+				C47370182E84D5BE0057BE6F /* Capturas */,
 				C4736FF72E84D1550057BE6F /* LibraryApp */,
 				C47370002E84D1580057BE6F /* LibraryAppTests */,
 				C47370042E84D15A0057BE6F /* LibraryAppUITests */,
@@ -161,6 +168,17 @@
 				C47370102E84D1C70057BE6F /* BibliotecaPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C47370182E84D5BE0057BE6F /* Capturas */ = {
+			isa = PBXGroup;
+			children = (
+				C473701A2E84D64C0057BE6F /* LibraryUITests.png */,
+				C473701B2E84D68E0057BE6F /* BibliotecaPresenterTests.png */,
+				C473701D2E84D70C0057BE6F /* BibliotecaSistemaTests.png */,
+				C473701E2E84D7ED0057BE6F /* Cobertura.png */,
+			);
+			path = Capturas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
